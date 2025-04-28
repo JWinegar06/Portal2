@@ -16,4 +16,7 @@ The section using the map() method has the added ' target="-blank" ' to ensure b
 <br />
 <br />
 Had to change the names for the Cats, Lists and Memory .js and .css files. 
+<br />
+<br />
+The nav bar doesn't work. That is intentional. 
 

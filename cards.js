@@ -2,17 +2,17 @@ let cardsList = document.querySelector(".cards");
 
 let cards = []
     cards.push({
-        title: "HTML Project",
+        title: "HTML Project ~ Cats",
         url: "./Cats/index.html"
       });
   
       cards.push({
-        title: "CSS Project",
+        title: "CSS Project ~ Lists",
         url: "./Lists/index.html"
       });
   
       cards.push({
-        title: "JavaScript Project",
+        title: "JavaScript Project ~ Memory",
         url: "./Memory/index.html"
       });
 

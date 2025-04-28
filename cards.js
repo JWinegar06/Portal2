@@ -8,7 +8,7 @@ let cards = []
   
       cards.push({
         title: "CSS Project",
-        url: "./List/index.html"
+        url: "./Lists/index.html"
       });
   
       cards.push({

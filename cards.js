@@ -1,19 +1,37 @@
 let cardsList = document.querySelector(".cards");
 
-let cards = [
-  {
-    title: "HTML Project",
-    url: "./Cats/index.html"
-  },
-  {
-    title: "CSS Project",
-    url: "./List/index.html"
-  },
-  {
-    title: "JavaScript Project",
-    url: "./Memory/index.html",
-  }
-];
+let cards = []
+    cards.push({
+        title: "HTML Project",
+        url: "./Cats/index.html"
+      });
+  
+      cards.push({
+        title: "CSS Project",
+        url: "./List/index.html"
+      });
+  
+      cards.push({
+        title: "JavaScript Project",
+        url: "./Memory/index.html"
+      });
+
+      cards.map((item) => {
+        cardsList.innerHTML += `
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <h2>${item.title}</h2>
+              </div>  
+              <div class="card-back">
+                <a href="${item.url}" target="-blank">Project Link</a>
+              </div>  
+            </div>
+          </div>
+        `;
+      });
+  
+
 
 // Now loop through the cards and build the elements
 cards.forEach(card => {

@@ -16,6 +16,7 @@ let cards = []
         url: "./Memory/index.html"
       });
 
+      //using map()
       cards.map((item) => {
         cardsList.innerHTML += `
           <div class="card">
@@ -32,7 +33,7 @@ let cards = []
       });
   
 
-
+// using forEach()
 // Now loop through the cards and build the elements
 cards.forEach(card => {
   // Create the card container
